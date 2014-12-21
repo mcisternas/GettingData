@@ -1,9 +1,11 @@
 #Codebook
 
 subject  
+
    Subject who performed the activity for each window sample. Its range is from 1 to 30.
     
 activity  
+
    Activity performed by the subject. Can be either: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING, obtained from activity_labels.txt
 
    Mean feature values presented below are normalized to be on the range [-1,1]    
@@ -14,6 +16,7 @@ tBodyAcc-mean()-Z
 tBodyAcc-std()-X  
 tBodyAcc-std()-Y  
 tBodyAcc-std()-Z  
+
    Mean values for each activity of the mean and standard deviation of each 3-dimensional (X,Y,Z) body acceleration signals, drawn from the raw accelerometer signal.
     
 tGravityAcc-mean()-X  
@@ -22,6 +25,7 @@ tGravityAcc-mean()-Z
 tGravityAcc-std()-X  
 tGravityAcc-std()-Y  
 tGravityAcc-std()-Z  
+
    Mean values for each activity of the mean and standard deviation of each 3-dimensional (X,Y,Z) gravity acceleration signals, drawn from the raw accelerometer signal.
     
 tBodyAccJerk-mean()-X  
