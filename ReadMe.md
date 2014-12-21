@@ -7,7 +7,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR
 by merging the 'test' and 'train' data sets, adding easier to read labels,
 extracting the mean and std deviations of the features, and returning a table
 with the averages over each activity and subject of the mean and std deviations
-of each feature.
+of each feature. For a description on the individual variables, see the Codebook.
 
 To script should be run from the same directory where the "UCI HAR
 Dataset" directory is, and requires the R package "dplyr" to be installed.
